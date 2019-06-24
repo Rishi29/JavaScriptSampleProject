@@ -43,6 +43,3 @@ function httpRequestAsync(url,callback){
         httpRequest.open("GET",url, true);//true for asynchronous
         httpRequest.send();
 }
-
-
-
